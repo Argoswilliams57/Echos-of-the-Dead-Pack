@@ -1,0 +1,60 @@
+{
+    "ed_ray_gun_fire": {
+        "sounds": [
+            {
+                "name": "pointblank:wonder_weapons/ray_gun/ed_ray_gun_fire",
+                "stream": false
+            }
+        ]
+    },
+    "ed_ray_gun_reload_battery": {
+        "sounds": [
+            {
+                "name": "pointblank:wonder_weapons/ray_gun/ed_ray_gun_reload_battery",
+                "stream": false
+            }
+        ]
+    },
+    "ed_ray_gun_reload_battery_out": {
+        "sounds": [
+            {
+                "name": "pointblank:wonder_weapons/ray_gun/ed_ray_gun_reload_battery_out",
+                "stream": false
+            }
+        ]
+    },
+    "ed_ray_gun_reload_close": {
+        "sounds": [
+            {
+                "name": "pointblank:wonder_weapons/ray_gun/ed_ray_gun_reload_close",
+                "stream": false
+            }
+        ]
+    },
+    "ed_ray_gun_reload_open": {
+        "sounds": [
+            {
+                "name": "pointblank:wonder_weapons/ray_gun/ed_ray_gun_reload_open",
+                "stream": false
+            }
+        ]
+    },
+    "ed_ray_gun_draw": {
+        "sounds": [
+            {
+                "name": "pointblank:wonder_weapons/ray_gun/ed_ray_gun_draw",
+                "stream": false
+            }
+        ]
+    },
+    "ed_ray_gun_inspect": {
+        "sounds": [
+            {
+                "name": "pointblank:wonder_weapons/ray_gun/ed_ray_gun_inspect",
+                "stream": false
+            }
+        ]
+    }
+
+
+}

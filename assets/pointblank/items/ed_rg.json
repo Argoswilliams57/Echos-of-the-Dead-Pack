@@ -1,0 +1,114 @@
+{
+  "name" : "ed_rg",
+  "type": "Gun",
+  "maxAmmoCapacity" : 20,
+  "compatibleAmmo" : ["ammocreative" ,"ed_ray_gun_ammo"],
+  "damage" : 23,
+  "rpm" : 170,
+  "fireModes" : ["AUTOMATIC"],
+  "fireSound" : "ed_ray_gun_fire",
+  "aimingZoom" : 0.3,
+  "gunRecoilInitialAmplitude" : 0.2,
+  "shakeRecoilAmplitude" : 0.2,
+  "shakeRecoilSpeed" : 2,
+  "viewRecoilAmplitude" : 1,
+  "firstPersonFallbackAnimations": "echos_walking_anims",
+  "phasedReloads": [
+    {
+      "phase": "RELOADING",
+      "condition": "reloadIterationIndex == 0",
+      "duration": 4260,
+      "animation": "animation.model.reload"
+    },
+    {
+      "phase": "RELOADING",
+      "condition": "reloadIterationIndex > 0",
+      "duration": 4260,
+      "animation": "animation.model.reload"
+    }
+  ],
+
+  "fireAnimations" : [
+
+    {
+      "name": "animation.model.fire",
+      "condition": "random"
+
+    },
+    {
+      "name": "animation.model.fire_left",
+      "condition": "random"
+    },
+    {
+      "name": "animation.model.fire_right",
+      "condition": "random"
+    }
+
+  ],
+
+
+
+
+
+
+  //Here Idle Animations Goes as planned
+
+  "idleAnimations": [
+    {
+      "name": "animation.model.idle",
+      "duration": 3000,
+      "condition": "ammoCount > 0"
+    },
+    {
+      "name": "animation.model.idle_empty",
+      "duration": 3000,
+      "condition": "ammoCount == 0"
+    }
+  ],
+
+
+  // Now starts Inspect Animations
+  "inspectAnimations": [
+    {
+      "name": "animation.model.inspect",
+      "duration": 5560,
+      "condition": "ammoCount > 0"
+    },
+
+    {
+      "name": "animation.model.inspect_empty",
+      "duration": 5560,
+      "condition": "ammoCount == 0"
+    }
+  ],
+
+
+  // Draw Animations also supports empty ones
+  "drawAnimations": [
+    {
+      "name": "animation.model.draw",
+      "duration": 640,
+      "condition": "ammoCount > 0"
+    },
+    {
+      "name": "animation.model.draw_empty",
+      "duration": 640,
+      "condition": "ammoCount == 0"
+    }
+  ],
+
+
+
+  //Here there are the Muzzle Effects
+  "effects": [
+    {
+      "phase": "hit_scan_acquired",
+      "name": "tracer"
+    },
+    {
+      "phase": "firing",
+      "name": "muzzle_flash_small"
+    }
+  ]
+
+}
