@@ -1,0 +1,132 @@
+{
+  "loader": "forge:separate_transforms",
+  "gui_light": "front",
+  "base":
+  {
+  "credit": "Made with Blockbench",
+  "parent": "builtin/entity",
+  "texture_size": [
+    64,
+    64
+  ],
+  "display": {
+    "thirdperson_righthand": {
+      "rotation": [
+        88.25,
+        0,
+        0
+      ],
+      "translation": [
+        0,
+        0.5,
+        -2.75
+      ],
+      "scale": [
+        0.3,
+        0.3,
+        0.3
+      ]
+    },
+    "thirdperson_lefthand": {
+      "rotation": [
+        88.25,
+        0,
+        0
+      ],
+      "translation": [
+        0,
+        0.5,
+        -2.75
+      ],
+      "scale": [
+        0.3,
+        0.3,
+        0.3
+      ]
+    },
+    "firstperson_righthand": {
+      "translation": [
+        -1.5,
+        -13.75,
+        0.75
+      ]
+    },
+    "firstperson_lefthand": {
+      "translation": [
+        -1.5,
+        -13.75,
+        0.75
+      ]
+    },
+    "ground": {
+      "translation": [
+        0,
+        -1.25,
+        0
+      ],
+      "scale": [
+        0.3,
+        0.3,
+        0.3
+      ]
+    },
+    "gui": {
+      "rotation": [
+        91.52,
+        -34.75,
+        0.86
+      ],
+      "translation": [
+        -0.25,
+        -0.25,
+        0
+      ],
+      "scale": [
+        0.15,
+        0.15,
+        0.15
+      ]
+    },
+    "head": {
+      "rotation": [
+        -26,
+        0,
+        0
+      ],
+      "scale": [
+        0,
+        0,
+        0
+      ]
+    },
+    "fixed": {
+      "rotation": [
+        85.72,
+        21.06,
+        -173.33
+      ],
+      "translation": [
+        0,
+        -1,
+        4
+      ],
+      "scale": [
+        0.4,
+        0.4,
+        0.4
+      ]
+    }
+  },
+  "textures": {
+    "particle": "item/ed_fire_staff"
+  }
+  },
+  "perspectives": {
+    "gui": {
+      "parent": "item/generated",
+      "textures": {
+        "layer0": "pointblank:item/icons/ed_fire_staff"
+      }
+    }
+  }
+}

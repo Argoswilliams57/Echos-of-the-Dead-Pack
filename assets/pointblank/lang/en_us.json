@@ -1,5 +1,7 @@
 {
   "itemGroup.echos_of_the_dead.items": "Echos of the dead Pack",
   "item.pointblank.ed_rg": "Ray gun",
-  "item.pointblank.ed_ray_gun_ammo": "Ray Gun's Ammo"
+  "item.pointblank.ed_ray_gun_ammo": "Ray Gun's Ammo",
+  "item.pointblank.ed_blundergat": "Blundergat",
+  "item.pointblank.ed_fire_staff": "Fire Staff"
 }

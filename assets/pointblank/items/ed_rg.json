@@ -13,6 +13,7 @@
   "shakeRecoilSpeed" : 2,
   "viewRecoilAmplitude" : 1,
   "firstPersonFallbackAnimations": "echos_walking_anims",
+  "muzzleFlashOverlay": "textures/flash_effect/ed_raygun_ring_flash.png",
   "phasedReloads": [
     {
       "phase": "RELOADING",
@@ -46,8 +47,11 @@
 
   ],
 
-
-
+  "glowingParts" :[
+    {
+      "name" : "glow"
+    }
+  ],
 
 
 
@@ -103,12 +107,20 @@
   "effects": [
     {
       "phase": "hit_scan_acquired",
-      "name": "tracer"
+      "name": "ed_raygun_tracers"
     },
     {
+      "phase": "hit_target",
+      "name": "ed_raygun_plasma_imapact"
+    },
+
+    {
       "phase": "firing",
-      "name": "muzzle_flash_small"
+      "name": "ed_raygun_ring_flash"
     }
+
+
+
   ]
 
 }

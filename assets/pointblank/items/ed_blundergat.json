@@ -1,0 +1,89 @@
+{
+  "name" : "ed_blundergat",
+  "type": "Gun",
+  "maxAmmoCapacity" : 1,
+  "compatibleAmmo" : ["ammocreative" ],
+  "damage" : 1.2,
+  "rpm" : 150,
+  "fireModes" : ["SINGLE"],
+  "fireSound" : "ed_blundergat_fire",
+  "aimingZoom" : 0.2,
+  "pelletCount": 27,
+  "pelletSpread": 0.1,
+  "gunRecoilInitialAmplitude" : 0.2,
+  "shakeRecoilAmplitude" : 0.7,
+  "shakeRecoilSpeed" : 2,
+  "viewRecoilAmplitude" : 4.2,
+  "firstPersonFallbackAnimations": "echos_walking_anims",
+  "phasedReloads": [
+    {
+      "phase": "RELOADING",
+      "condition": "reloadIterationIndex == 0",
+      "duration": 2420,
+      "animation": "animation.model.reload"
+    }
+  ],
+
+  "fireAnimations" : [
+    {
+      "name": "animation.model.fire"
+
+    }
+  ],
+
+
+  //Here Idle Animations Goes as planned
+
+  "idleAnimations": [
+    {
+      "name": "animation.model.idle",
+      "duration": 2960,
+      "condition": "ammoCount > 0"
+    },
+    {
+      "name": "animation.model.idle",
+      "duration": 2960,
+      "condition": "ammoCount == 0"
+    }
+  ],
+
+
+  // Now starts Inspect Animations
+  "inspectAnimations": [
+    {
+      "name": "animation.model.inspect",
+      "duration": 8240,
+      "condition": "ammoCount > 0"
+    },
+
+    {
+      "name": "animation.model.inspect",
+      "duration": 8240,
+      "condition": "ammoCount == 0"
+    }
+  ],
+
+
+  // Draw Animations also supports empty ones
+  "drawAnimations": [
+    {
+      "name": "animation.model.draw",
+      "duration": 500
+    }
+  ],
+
+
+
+  //Here there are the Muzzle Effects
+  "effects": [
+    {
+      "phase": "hit_scan_acquired",
+      "name": "tracer"
+    },
+    {
+      "phase": "firing",
+      "name": "muzzle_flash_big"
+    }
+  ]
+
+}
