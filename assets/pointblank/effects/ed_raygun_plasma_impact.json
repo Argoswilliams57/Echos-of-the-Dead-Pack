@@ -1,0 +1,15 @@
+{
+	"type": "impact",
+	"name": "ed_raygun_plasma_imapact",
+	"texture": "textures/impact_effects/ed_raygun_plasma_imapact.png",
+	"blendMode": "ADDITIVE",
+	"duration" : 6000,
+	"sprites": {
+		"type": "play_once",
+		"rows": 5,
+		"columns": 5,
+		"fps": 60
+	},
+	"glow": true,
+	"depthTest": true
+}

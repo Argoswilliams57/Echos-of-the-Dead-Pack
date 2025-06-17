@@ -54,7 +54,123 @@
                 "stream": false
             }
         ]
+    },
+    "ed_ray_gun_flux": {
+        "sounds": [
+            {
+                "name": "pointblank:wonder_weapons/ray_gun/ed_ray_gun_flux",
+                "stream": false
+            }
+        ]
+    },
+
+
+
+    "ed_blundergat_fire": {
+        "sounds": [
+            {
+                "name": "pointblank:wonder_weapons/blundergat/ed_blundergat_fire",
+                "stream": false
+            }
+        ]
+    },
+
+    "ed_blundergat_hammer": {
+        "sounds": [
+            {
+                "name": "pointblank:wonder_weapons/blundergat/ed_blundergat_fire",
+                "stream": false
+            }
+        ]
+    },
+
+    "ed_blundergat_barrelup": {
+        "sounds": [
+            {
+                "name": "pointblank:wonder_weapons/blundergat/ed_blundergat_barrelup",
+                "stream": false
+            }
+        ]
+    },
+
+    "ed_blundergat_barreldown": {
+        "sounds": [
+            {
+                "name": "pointblank:wonder_weapons/blundergat/ed_blundergat_barreldown",
+                "stream": false
+            }
+        ]
+    },
+
+    "ed_blundergat_loadshell": {
+        "sounds": [
+            {
+                "name": "pointblank:wonder_weapons/blundergat/ed_blundergat_loadshell",
+                "stream": false
+            }
+        ]
+    },
+
+    "ed_blundergat_draw": {
+        "sounds": [
+            {
+                "name": "pointblank:wonder_weapons/blundergat/ed_blundergat_draw",
+                "stream": false
+            }
+        ]
+    },
+    "ed_blundergat_inspect": {
+        "sounds": [
+            {
+                "name": "pointblank:wonder_weapons/blundergat/ed_blundergat_inspect",
+                "stream": false
+            }
+        ]
+    },
+
+
+    "ed_fire_staff_fire": {
+        "sounds": [
+            {
+                "name": "pointblank:wonder_weapons/fire_staff/ed_fire_staff_fire",
+                "stream": false
+            }
+        ]
+    },
+
+
+    "ed_fire_staff_flux": {
+        "sounds": [
+            {
+                "name": "pointblank:wonder_weapons/fire_staff/ed_fire_staff_flux",
+                "stream": false
+            }
+        ]
+    },
+
+    "ed_fire_staff_reload": {
+        "sounds": [
+            {
+                "name": "pointblank:wonder_weapons/fire_staff/ed_fire_staff_reload",
+                "stream": false
+            }
+        ]
+    },
+    "ed_staffs_draw": {
+        "sounds": [
+            {
+                "name": "pointblank:wonder_weapons/fire_staff/ed_staffs_draw",
+                "stream": false
+            }
+        ]
+    },
+
+    "ed_staffs_inspect": {
+        "sounds": [
+            {
+                "name": "pointblank:wonder_weapons/fire_staff/ed_staffs_inspect",
+                "stream": false
+            }
+        ]
     }
-
-
 }
