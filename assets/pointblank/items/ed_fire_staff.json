@@ -2,9 +2,9 @@
   "name" : "ed_fire_staff",
   "type": "Gun",
   "maxAmmoCapacity" : 10,
-  "compatibleAmmo" : ["ammocreative" ],
-  "damage" : 23,
-  "rpm" : 130,
+  "compatibleAmmo" : ["ammocreative","ed_fire_cell" ],
+  "damage" : 43,
+  "rpm" : 80,
   "fireModes" : ["SINGLE"],
   "fireSound" : "ed_fire_staff_fire",
   "aimingZoom" : 0.2,
@@ -39,7 +39,7 @@
       "condition": "random"
     },
     {
-      "name": "animation.model.fire2",
+      "name": "animation.model.fire3",
       "condition": "random"
     }
   ],
@@ -101,8 +101,13 @@
       "name": "tracer"
     },
     {
+      "phase": "hit_target",
+      "name": "ed_fire_staff_impact"
+    },
+
+    {
       "phase": "firing",
-      "name": "muzzle_flash_small"
+      "name": "launcher_muzzle"
     }
   ]
 

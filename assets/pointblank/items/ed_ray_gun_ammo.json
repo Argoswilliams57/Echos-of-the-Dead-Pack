@@ -1,4 +1,39 @@
 {
   "name" : "ed_ray_gun_ammo",
-  "type": "Ammo"
+  "type": "Ammo",
+  "damage": 65,
+
+
+  "projectile": {
+    "initialVelocity" : 65,
+    "gravity" : 0.005,
+    "topDownAttackEnabled": "false",
+    "effects" : [
+      "ed_plasma_trail"
+    ],
+    "renderer": {
+      "type": "sprite",
+      "texture": "textures/impact_effects/ed_raygun_plasma_impact.png",
+      "size": 1,
+      "glow": true,
+      "blendMode": "ADDITIVE",
+      "sprites": {
+        "rows": 5,
+        "columns": 5,
+        "fps": 60,
+        "type": "loop"
+      }
+    }
+  },
+  "explosion": {
+    "power": 2.7,
+    "fire": false,
+    "sound": "ed_raygun_exp",
+    "soundVolume": 60,
+    "interaction": "NONE",
+    "effects": [
+      "debris", "ed_raygun_plasma_impact"
+    ]
+  }
+
 }

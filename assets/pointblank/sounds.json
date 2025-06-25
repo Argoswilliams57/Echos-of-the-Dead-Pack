@@ -39,6 +39,14 @@
             }
         ]
     },
+    "ed_raygun_exp": {
+        "sounds": [
+            {
+                "name": "pointblank:wonder_weapons/ray_gun/ed_raygun_exp",
+                "stream": false
+            }
+        ]
+    },
     "ed_ray_gun_draw": {
         "sounds": [
             {
@@ -169,6 +177,111 @@
         "sounds": [
             {
                 "name": "pointblank:wonder_weapons/fire_staff/ed_staffs_inspect",
+                "stream": false
+            }
+        ]
+    },
+    "ed_fire_staff_impact_explosion_1": {
+        "sounds": [
+            {
+                "name": "pointblank:wonder_weapons/fire_staff/ed_fire_staff_impact_explosion_1",
+                "stream": false
+            }
+        ]
+    },
+    "ed_fire_staff_impact_explosion_2": {
+        "sounds": [
+            {
+                "name": "pointblank:wonder_weapons/fire_staff/ed_fire_staff_impact_explosion_2",
+                "stream": false
+            }
+        ]
+    },
+    "ed_fire_staff_impact_explosion_3": {
+        "sounds": [
+            {
+                "name": "pointblank:wonder_weapons/fire_staff/ed_fire_staff_impact_explosion_3",
+                "stream": false
+            }
+        ]
+    },
+    "ed_m1911_fire": {
+        "sounds": [
+            {
+                "name": "pointblank:pistols/m1911/ed_m1911_fire",
+                "stream": false
+            }
+        ]
+    },
+    "ed_m1911_fire_last": {
+        "sounds": [
+            {
+                "name": "pointblank:pistols/m1911/ed_m1911_fire_last",
+                "stream": false
+            }
+        ]
+    },
+    "ed_m1911_inspect": {
+        "sounds": [
+            {
+                "name": "pointblank:pistols/m1911/ed_m1911_inspect",
+                "stream": false
+            }
+        ]
+    },
+
+    "ed_m1911_inspect_empty": {
+        "sounds": [
+            {
+                "name": "pointblank:pistols/m1911/ed_m1911_inspect_empty",
+                "stream": false
+            }
+        ]
+    },
+    "ed_m1911_normal_reload": {
+        "sounds": [
+            {
+                "name": "pointblank:pistols/m1911/ed_m1911_normal_reload",
+                "stream": false
+            }
+        ]
+    },
+    "ed_m1911_empty_reload": {
+        "sounds": [
+            {
+                "name": "pointblank:pistols/m1911/ed_m1911_empty_reload",
+                "stream": false
+            }
+        ]
+    },
+    "ed_m1911_put_away": {
+        "sounds": [
+            {
+                "name": "pointblank:pistols/m1911/ed_m1911_put_away",
+                "stream": false
+            }
+        ]
+    },
+    "ed_m1911_draw": {
+        "sounds": [
+            {
+                "name": "pointblank:pistols/m1911/ed_m1911_draw",
+                "stream": false
+            }
+        ]
+    },
+    "ed_m1911_suppressed": {
+        "sounds": [
+            {
+                "name": "pointblank:pistols/m1911/ed_m1911_suppressed",
+                "stream": false
+            }
+        ]
+    },
+    "ed_m1911_suppressed_3p": {
+        "sounds": [
+            {
+                "name": "pointblank:pistols/m1911/ed_m1911_suppressed_3p",
                 "stream": false
             }
         ]

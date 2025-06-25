@@ -1,0 +1,40 @@
+{
+  "name" : "ed_fire_cell",
+  "type": "Ammo",
+  "damage": 110,
+
+
+  "projectile": {
+    "initialVelocity" : 65,
+    "gravity" : 0.005,
+    "topDownAttackEnabled": "false",
+    "effects" : [
+      "ed_fire_staff_trail"
+    ],
+    "renderer": {
+      "type": "sprite",
+      "texture": "textures/impact_effects/ed_fire_sprite.png",
+      "size": 1,
+      "glow": true,
+      "blendMode": "ADDITIVE",
+      "sprites": {
+        "rows": 5,
+        "columns": 5,
+        "fps": 60,
+        "type": "loop"
+      }
+    }
+  },
+  "explosion": {
+    "power": 3.1,
+    "fire": true,
+    "sound": "ed_fire_staff_impact_explosion_3",
+    "soundVolume": 30,
+    "interaction": "NONE",
+    "effects": [
+      "debris"
+    ]
+  }
+
+
+}
